@@ -1,16 +1,19 @@
 Package: zvtools
-Title: What the Package Does (One Line, Title Case)
+Title: Personal Utility Functions For Statistical Modelling
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Zak",
            family = "Varty",
            role = c("aut", "cre"),
            email = "z.varty@imperial.ac.uk")
-Description: What the package does (one paragraph).
-License: CC BY 4.0
+Description: All of the utility functions that I wish someone esle has already written, or that I want to understand better myself.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 URL: https://github.com/zakvarty/zvtools
 BugReports: https://github.com/zakvarty/zvtools/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
